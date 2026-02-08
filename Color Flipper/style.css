@@ -1,0 +1,21 @@
+#red {background-color: red;}
+#green {background-color: green;}
+#blue {background-color: blue;}
+body{background-color: violet;}
+
+#button-center{
+    text-align: center;
+    margin-top: 20px;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+button{
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+}
