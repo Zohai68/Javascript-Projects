@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    background-color: aquamarine;
+    
+}
+button{
+    width: 60px;
+    height: 30px;
+    font: bold;
+    font-size: 18px;
+    border-radius: 20px;
+}
+h1{
+    padding-top: 20px;
+    
+}
+#inputBox{
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2.5px solid transparent;
+    box-shadow: 3px 3px #888888;;
+    position: relative;
+    animation: borderAnimation 2s linear infinite;
+}
+
+@keyframes borderAnimation {
+0% {border-color: red;}
+50% {border-color: blue;}
+100% {border-color: green;}
+}
